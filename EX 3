@@ -1,0 +1,52 @@
+Skip to content
+Navigation Menu
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+BreadcrumbsWeb
+/EXP 3.Change the position of the element
+Latest commit
+dharshini610
+dharshini610
+Create EXP 3.Change the position of the element
+3936be6
+ · 
+2 days ago
+History
+25 lines (25 loc) · 516 Bytes
+File metadata and controls
+
+Code
+
+Blame
+<!DOCTYPE html>
+<html>
+    <style>
+        .parent {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            background-color: lightgray;
+        }
+        .child {
+            position: relative;
+            top: 50px;
+            left: 50px;
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">Child Element</div>
+    </div>
+</body>
+</html>
+Web/EXP 3.Change the position of the element at main · dharshini610/Web
